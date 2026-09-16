@@ -1,0 +1,4 @@
+# Entorno mínimo para ejecutar el notebook de este repositorio.
+# Instalación:  pip install -r requirements.txt
+jupyterlab==4.4.9
+notebook==7.4.7
