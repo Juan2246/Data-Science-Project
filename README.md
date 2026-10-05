@@ -1,50 +1,35 @@
-# Data Science Tools and Ecosystem
+# Primeros pasos con ciencia de datos
 
-Proyecto final del curso **Tools for Data Science**, parte del programa
-*Data Science Foundations* de IBM en Coursera.
+Este repositorio guarda mi entrega del curso **Tools for Data Science** de IBM en Coursera. Es un notebook introductorio: reúne lenguajes, librerías y entornos de trabajo, y contiene dos ejercicios básicos de Python.
 
-El notebook documenta el ecosistema de herramientas del análisis de datos
-(lenguajes, librerías y entornos) y resuelve los ejercicios de evaluación
-de expresiones aritméticas en Python que pide el curso.
+Lo conservo como parte de mi formación. Su alcance es familiarizarme con Jupyter y combinar explicación con código; no incluye un análisis de datos ni un modelo de predicción.
 
-## Contenido
+## Abrir el notebook
 
-| Sección | Descripción |
-|---|---|
-| Lenguajes | Lenguajes habituales en ciencia de datos: Python, R, SQL, Julia, Scala |
-| Librerías | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Keras, TensorFlow, PyTorch |
-| Herramientas | Tabla comparativa: Jupyter, RStudio, Apache Spark, GitHub, Watson Studio |
-| Ejercicios | Evaluación de expresiones aritméticas y conversión de unidades en Python |
+[Herramientas y ecosistema de ciencia de datos](notebooks/01-herramientas-y-ecosistema-data-science.ipynb)
 
-## Estructura
-
-```
-.
-├── notebooks/
-│   └── 01-herramientas-y-ecosistema-data-science.ipynb
-├── requirements.txt
-└── README.md
-```
-
-La convención `NN-descripcion` en `notebooks/` numera los cuadernos por orden
-de lectura, de modo que el repositorio admite nuevos análisis sin reorganizarse.
-
-## Cómo ejecutarlo
+GitHub permite leerlo sin instalar nada. Para ejecutarlo localmente:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab notebooks/
 ```
 
-El notebook no depende de datasets externos: se ejecuta de principio a fin
-sin descargar nada.
+En PowerShell, activa el entorno con `.venv\Scripts\Activate.ps1`.
 
-## Tecnologías
+## Qué contiene
 
-Python · Jupyter Notebook
+- Listas de lenguajes y librerías habituales en ciencia de datos.
+- Una tabla de herramientas: Jupyter, RStudio, Apache Spark, GitHub y Watson Studio.
+- Una expresión aritmética: `(3 * 4) + 5`.
+- Conversión de 200 minutos a horas.
 
-## Autor
+No requiere un conjunto de datos externo. Las bibliotecas mencionadas en las listas son parte del contenido del ejercicio; no todas son dependencias ni herramientas que haya usado en este notebook.
 
-Juan Sebastián Torres Sánchez
+## Lo que practiqué
+
+Escribir celdas Markdown, organizar una explicación y ejecutar celdas de Python en un mismo documento. El siguiente paso en mi aprendizaje es aplicar ese flujo a un problema con datos reales.
+
+Juan Sebastián Torres Sánchez · [Mi portafolio](https://portafolio-juan-torres-puce.vercel.app)
